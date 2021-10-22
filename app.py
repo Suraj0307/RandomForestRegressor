@@ -27,7 +27,7 @@ def predict_page():
         user_input10 = float(request.form.get('input10'))
         user_input11 = float(request.form.get('input11'))
         user_input12 = float(request.form.get('input12'))
-        user_input13 = float(request.form.get('input12'))
+        user_input13 = float(request.form.get('input13'))
         prediction = model.predict(
             ([[user_input1, user_input2, user_input3, user_input4, user_input5, user_input6,
                user_input7, user_input8, user_input9, user_input10, user_input11,
